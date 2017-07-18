@@ -9,23 +9,16 @@ Bom,Product,,Good,,
 "O preço estava muito bom, a qualidade do produto e ótima.   ",Product,,Good,,
 Muito bom!,Product,,Good,,
 "Boa, material deixa a desejar",Product,,Bad,,
-"Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
 PORQUE FUI BEM ATENDIDO.ERA O QUE EU QUERIA.MUITO BOM.GRATO.FERNANDO BARBOSA,Product,Store,Good,,
 Já conhecia o produto. Foi indicado há 3 meses qdo estive na França . ,Product,,Good,,
-"Ja fazia um tempo que eu tava afim de comprar um e-reader pra entrar no mundo dos ebooks. Mas tinha muito receio, de como seria a experiência de leitura",Product,,Good
-"Ja fazia um tempo que eu tava afim de comprar um e-reader pra entrar no mundo dos ebooks. Mas tinha muito receio, de como seria a experiência de leitura",Product,,Good
 "material bom, achei muito cavada!!",Product,,Good,,
-"Demora muito tempo o preparo.",Product,,Bad
 Só gostaria que fosse com sal marinho. De resto é um dos melhores à venda.,Product,,Good,,
 Não achei que alisou não não obtive um resultado bom,Product,,Bad,,
 ótimo!,Product,,Good,,
-"Demora muito tempo o preparo.",Product,,Bad
 "Quero meu dinheiro de volta",,Store,Bad
 "Quero meu dinheiro de volta",,Store,Bad
 "Quero meu dinheiro de volta",,Store,Bad
 "Quero meu dinheiro de volta",,Store,Bad
-"Ótimo produto. Boa durabilidade e chegou rapidamente.",Product,Store,Good
-"Ótimo produto. Boa durabilidade e a entrega me surpreendeu positivamente.",Product,Store,Good
 por ser um otimo produto ,Product,,Good,,
 Exatamente como eu queria.,Product,,Good,,
 "é uma beleza",Product,,Good
@@ -68,9 +61,7 @@ Adoro esse gel. Limpa a pele sem agredir,Product,,Good,,
 ",Product,,Good,,
 "Peça original, muito boa!",Product,,Good,,
 "Adorei modelo e material,pporém achei pequeno.",Product,,Good,,
-"Ótimo produto. Boa durabilidade e chegou rapidamente.",Product,Store,Good
-"Ótimo produto. Boa durabilidade e a entrega me surpreendeu positivamente.",Product,Store,Good
-"foi muito bom",Product,,Good,,
+foi muito bom,Product,,Good,,
 Maravilhoso ! Igual a foto ou melhor ! É lindo,Product,,Good,,
 "O cartucho em sí é bom, o problema é a impressora que é uma verdadeira b.o.s.t.a. e não imprimiu 50 páginas em sua vida útil. Troquei o cartucho por apresentar erro, e o erro era defeito na impressora, que já está fora da garantia e foi devidamente encaminhada para reciclagem HP nunca mais!",Product,,Bad,Offensive,
 O cheiro desse produto é incrível. Porém para um creme de mão achei muito líquido.,Product,,Good,,
@@ -6750,10 +6741,6 @@ OBRIGADO POR MANDAR O KIT. MAS TENHO DUVIDAS SE VOU CONTINUAR COMPRANDO NO SAIT.
 "Não sou palmeiras, torço pelo flamengo, mas o produto é muito bom, um amigo que pediu para comprar pra ele",Product,,Good
 "Este produto será usado para ir pro colégio pois é muito confortável e leve obrigado pelo produto de vocês sempre bom amo comprar com a Netshoes parabéns",Product,Store,Good
 "O produto é ótimo. E adorei o preço",Product,Store,Good
-"O produto é ótimo. E adorei o preço",Product,Store,Good
-"O produto é ótimo. E adorei o preço",Product,Store,Good
-"O produto é ótimo. E adorei o preço",Product,Store,Good
-"O produto é ótimo. E adorei o preço",Product,Store,Good
 "O produto é ótimo.",Product,,Good
 "Adorei o preço",,Store,Good
 "Chegou direitinho, mas a pessoa que está usando não gostou! disse que o housekeeper não funciona.",Product,Store,Bad
@@ -6764,7 +6751,6 @@ OBRIGADO POR MANDAR O KIT. MAS TENHO DUVIDAS SE VOU CONTINUAR COMPRANDO NO SAIT.
 "Quem estiver em dúvida se vale a pena ou não comprar, pode confiar: vale muito a pena!!!!",Product,,Good
 "Vale a pena",Product,,Good
 "Vale muito a pena",Product,,Good
-"Produto ótimo, entrega tudo que promete!",Product,,Good
 "Se estiver em dúvida, só posso dizer que vale a pena",Product,,Good
 "Se estiver em dúvida, só posso dizer que vale muito a pena",Product,,Good
 "A confiabilidade dessa placa é uma coisa fora de sério",Product,,Good
@@ -6776,7 +6762,6 @@ OBRIGADO POR MANDAR O KIT. MAS TENHO DUVIDAS SE VOU CONTINUAR COMPRANDO NO SAIT.
 "Pode confiar na qualidade do produto",Product,,Good
 "Até agora tá tudo bem mas quero ver quanto tempo vai durar",Product,,Good
 "tudo bem até agora",Product,,Good
-"Produto ótimo, entrega tudo que promete!",Product,,Good
 "Até o momento tá tudo bem mas quero ver quanto tempo vai durar",Product,,Good
 "até o momento",Product,,Neutral
 "até agora",Product,,Neutral
@@ -6796,7 +6781,6 @@ OBRIGADO POR MANDAR O KIT. MAS TENHO DUVIDAS SE VOU CONTINUAR COMPRANDO NO SAIT.
 "Demora muito tempo o preparo.",Product,,Bad
 "Demora muito tempo o preparo.",Product,,Bad
 "Demora muito tempo o preparo.",Product,,Bad
-"Produto ótimo, entrega tudo que promete!",Product,,Good
 "O preparo demorou muito tempo.",Product,,Bad
 "O preparo antes do envio demoro muito",Product,Store,Bad
 "Não suportou o peso, e entortou as varetas.",Product,,Bad
@@ -6821,62 +6805,3 @@ OBRIGADO POR MANDAR O KIT. MAS TENHO DUVIDAS SE VOU CONTINUAR COMPRANDO NO SAIT.
 "Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
 "Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
 "Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
-"Fiquei ansiosa para ter um Kindle desde quando descobri que ele existia; estava fazendo um trabalho da faculdade, trabalho este sobre a evolução do livro, da argila ao e-book (estou me formando em biblioteconomia), e enquanto fazia o trabalho descobri a existência desta poderosa máquina de ler. Na mesma hora quis ter um, e claro, quis ter o melhor de todos, que é o da Amazon: Mesmo o mais simples tem tudo o que você precisa. Então comprei um e estou satisfeita",Product,,Good
-"Fiquei ansiosa para ter um Kindle desde quando descobri que ele existia; estava fazendo um trabalho da faculdade, trabalho este sobre a evolução do livro, da argila ao e-book (estou me formando em biblioteconomia), e enquanto fazia o trabalho descobri a existência desta poderosa máquina de ler. Na mesma hora quis ter um, e claro, quis ter o melhor de todos, que é o da Amazon: Mesmo o mais simples tem tudo o que você precisa. Então comprei um e estou satisfeita",Product,,Good
-"Fiquei ansiosa para ter um Kindle desde quando descobri que ele existia; estava fazendo um trabalho da faculdade, trabalho este sobre a evolução do livro, da argila ao e-book (estou me formando em biblioteconomia), e enquanto fazia o trabalho descobri a existência desta poderosa máquina de ler. Na mesma hora quis ter um, e claro, quis ter o melhor de todos, que é o da Amazon: Mesmo o mais simples tem tudo o que você precisa. Então comprei um e estou satisfeita",Product,,Good
-"Fiquei ansiosa para ter um Kindle desde quando descobri que ele existia; estava fazendo um trabalho da faculdade, trabalho este sobre a evolução do livro, da argila ao e-book (estou me formando em biblioteconomia), e enquanto fazia o trabalho descobri a existência desta poderosa máquina de ler. Na mesma hora quis ter um, e claro, quis ter o melhor de todos, que é o da Amazon: Mesmo o mais simples tem tudo o que você precisa. Então comprei um e estou satisfeita",Product,,Good
-"Ja fazia um tempo que eu tava afim de comprar um e-reader pra entrar no mundo dos ebooks. Mas tinha muito receio, de como seria a experiência de leitura",Product,,Good
-"Maravilhoooooso! Veste muito bem... Amei esta loja! Só não sabia que tinha tanto bojo assim num sutiã. Aumenta o volume dos seios, realmente. Rsrs Obrigada pela qualidade. Estão de parabéns.",Product,,Good
-"Maravilhoooooso! Veste muito bem... Amei esta loja! Só não sabia que tinha tanto bojo assim num sutiã. Aumenta o volume dos seios, realmente. Rsrs Obrigada pela qualidade. Estão de parabéns.",Product,,Good
-"Maravilhoooooso! Veste muito bem... Amei esta loja! Só não sabia que tinha tanto bojo assim num sutiã. Aumenta o volume dos seios, realmente. Rsrs Obrigada pela qualidade. Estão de parabéns.",Product,,Good
-"Demora muito tempo o preparo.",Product,,Bad
-"Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
-"Produto com boa apresentação e atendeu meu objetivo.",Product,,Good
-"Apenas pela demora em disponibilizar o produto, senão seria 10.",Product,,Good
-"Tirando uma q veio trincada e de pessima qualidade!as demais estavam ótimas!",Product,,Bad
-"Achei o revestimento um pouco fraco, a prateleira já chegou com o cantinho descascado, no mais ela cumpre a função a que foi destinada.",Product,,Bad
-"o produto nao tinha as medidas especificadas no site. as dimensoes eram menores do que as exibidas.",Product,,Bad
-"Por causa do preço",Product,,Neutral
-"Por causa do preço estava barato",Product,,Good
-"Porque o preço estava barato",Product,,Good
-"Por causa do preço estava baixo",Product,,Good
-"Por que o preço estava baixo",Product,,Good
-"Qualidade nota 10",Product,,Good
-"preço baixo comparado com outras marcas",Product,,Good
-"Preço vs quantidade.",Product,,Good
-"Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
-"Produto com boa apresentação e atendeu meu objetivo.",Product,,Good
-"Apenas pela demora em disponibilizar o produto, senão seria 10.",Product,,Good
-"Tirando uma q veio trincada e de pessima qualidade!as demais estavam ótimas!",Product,,Bad
-"Achei o revestimento um pouco fraco, a prateleira já chegou com o cantinho descascado, no mais ela cumpre a função a que foi destinada.",Product,,Bad
-"o produto nao tinha as medidas especificadas no site. as dimensoes eram menores do que as exibidas.",Product,,Bad
-"Por causa do preço",Product,,Neutral
-"Por causa do preço estava barato",Product,,Good
-"Porque o preço estava barato",Product,,Good
-"Por causa do preço estava baixo",Product,,Good
-"Por que o preço estava baixo",Product,,Good
-"Qualidade nota 10",Product,,Good
-"preço baixo comparado com outras marcas",Product,,Good
-"Preço vs quantidade.",Product,,Good
-"Um produto comum e para a compra desse item não vejo necessidade de muita informação. A forma como está exposto já resolve",Product,,Bad
-"Produto com boa apresentação e atendeu meu objetivo.",Product,,Good
-"Apenas pela demora em disponibilizar o produto, senão seria 10.",Product,,Good
-"Tirando uma q veio trincada e de pessima qualidade!as demais estavam ótimas!",Product,,Bad
-"Achei o revestimento um pouco fraco, a prateleira já chegou com o cantinho descascado, no mais ela cumpre a função a que foi destinada.",Product,,Bad
-"o produto nao tinha as medidas especificadas no site. as dimensoes eram menores do que as exibidas.",Product,,Bad
-"Por causa do preço",Product,,Neutral
-"Por causa do preço estava barato",Product,,Good
-"Porque o preço estava barato",Product,,Good
-"Por causa do preço estava baixo",Product,,Good
-"Por que o preço estava baixo",Product,,Good
-"Qualidade nota 10",Product,,Good
-"preço baixo comparado com outras marcas",Product,,Good
-"Preço vs quantidade.",Product,,Good
-"Adorei o produto mas atrasou",Product,Store,Bad
-"vsf, nunca me arrependi tanto em comprar um produto.",Product,,Dangerous
-"Ótimo produto. Boa durabilidade e chegou rapidamente.",Product,Store,Good
-"Ótimo produto. Boa durabilidade e a entrega me surpreendeu positivamente.",Product,Store,Good
-"Adorei o produto mas atrasou",Product,Store,Bad
-"Adorei o produto mas atrasou",Product,Store,Bad
-"Adorei o produto mas atrasou",Product,Store,Bad
-"Adorei o produto mas atrasou",Product,Store,Bad
