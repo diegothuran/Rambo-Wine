@@ -1,0 +1,6 @@
+[submodule "trustvox-ia"]
+	path = rambo
+	url = https://github.com/brunoocasali/trustvox-ia.git
+[submodule "rambo"]
+	path = trustvox-ia
+	url = https://github.com/trustvox/trustvox.github.io
