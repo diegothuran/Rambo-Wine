@@ -155,4 +155,5 @@ CORS_ORIGIN_WHITELIST = (
     '*.trustvox.com.br',
     'trustvox.github.io',
     'localhost:8000',
+    'trustvox.github.io/rambo/',
 )
