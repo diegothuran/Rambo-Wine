@@ -52,8 +52,8 @@ class Ensemble():
 
     def load_classifiers(self):
 
-        svm_product = joblib.load('textClassification/SentimentAnalisys/ClassifierWeights/svm-02.pkl')
-        svm_store = joblib.load('textClassification/SentimentAnalisys/ClassifierWeights/svm2-02.pkl')
+        svm_product = joblib.load('textClassification/SentimentAnalisys/ClassifierWeigths/svm-02.pkl')
+        svm_store = joblib.load('textClassification/SentimentAnalisys/ClassifierWeigths/svm2-02.pkl')
 
         return svm_product, svm_store
 
@@ -99,8 +99,8 @@ class Ensemble():
 
             if result > best:
                 best = result
-                joblib.dump(svm1, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm-03.pkl')
-                joblib.dump(svm2, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm2-03.pkl')
+                joblib.dump(svm1, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm-02.pkl')
+                joblib.dump(svm2, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm2-02.pkl')
 
 
     def predict(self, patter, svm1, svm2):
