@@ -52,7 +52,8 @@ class Ensemble():
 
     def load_classifiers(self):
 
-        svm_product = joblib.load('textClassification/SentimentAnalisys/ClassifierWeigths/svm-02.pkl')
+        #svm_product = joblib.load('textClassification/SentimentAnalisys/ClassifierWeigths/svm-02.pkl')
+        svm_product = None
         svm_store = joblib.load('textClassification/SentimentAnalisys/ClassifierWeigths/svm2-02.pkl')
 
         return svm_product, svm_store
@@ -60,10 +61,10 @@ class Ensemble():
     def prediction(self, pattern):
         pattern = self.vectorizer.transform([tokenize(pattern)])
         pattern = pattern.todense()
-        is_product = self.cls_product.predict(pattern)
+        #is_product = self.cls_product.predict(pattern)
         is_store = self.cls_store.predict(pattern)
 
-        return [is_product, is_store]
+        return [1, is_store]
 
     def update_classifiers(self):
         new_patterns = Comment.objects.filter(is_to_update=True)
