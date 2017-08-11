@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Author: Diego Santos
 
-#joblib para persistencia do classificador
+# joblib para persistencia do classificador
 from sklearn.externals import joblib
 from textClassification.models import Comment
 
@@ -9,7 +9,7 @@ from Util import *
 from django.core.cache import cache
 
 
-def update_classifiers(patter_to_add, label = []):
+def update_classifiers(patter_to_add, label=[]):
     """
         Método responsável por atualizar os pesos do classificador utilizando novas entradas não apresentados
     :param patter_to_add: padrão novo a ser adicionado
@@ -30,21 +30,21 @@ class Ensemble():
                 -   Um SVM linear para classificar se o review é de produto.
     """
 
-    def __init__(self):
+    def __init__(self, type='normal'):
         """
             Método que inicializa a classe.
             cls
         """
         self.cls_product, self.cls_store = self.load_classifiers()
         self.vectorizer = None
-        if cache.get('vectorizer') is None:
-            cache.set('vectorizer', self.load_vectorizer())
-            self.vectorizer = cache.get('vectorizer')
-        else:
-            self.vectorizer = cache.get('vectorizer')
 
+        if type == 'normal':
+            if cache.get('vectorizer') is None:
+                cache.set('vectorizer', self.load_vectorizer())
+                self.vectorizer = cache.get('vectorizer')
+            else:
+                self.vectorizer = cache.get('vectorizer')
 
-    
     def load_vectorizer(self):
         vectorizer = joblib.load("textClassification/SentimentAnalisys/Data/vectorizer.pkl")
 
@@ -77,7 +77,7 @@ class Ensemble():
                 label1 = 'Product'
             if pattern.is_store:
                 label2 = 'Store'
-            temp_label =[label1, label2]
+            temp_label = [label1, label2]
 
             database.append(pattern.comment)
             labels.append(temp_label)
@@ -99,9 +99,8 @@ class Ensemble():
 
             if result > best:
                 best = result
-                joblib.dump(svm1, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm-02.pkl')
-                joblib.dump(svm2, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm2-02.pkl')
-
+                joblib.dump(svm1, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm-03.pkl')
+                joblib.dump(svm2, 'textClassification/SentimentAnalisys/ClassifierWeigths/svm2-03.pkl')
 
     def predict(self, patter, svm1, svm2):
         is_product = svm1.predict(patter)
@@ -120,7 +119,7 @@ class Ensemble():
             if temp == 0:
                 acertos += 1
 
-        return float(float(acertos)/float(len(patters)))
+        return float(float(acertos) / float(len(patters)))
 
     def train_svm(self, svm, database, labels):
         extracted_database, vectorizer = vectorize_database_tfidf(database=database)
