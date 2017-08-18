@@ -15,6 +15,8 @@
 5a. feira
 6a feira
 6a. feira
+acima das espectativas
+acima das expectativas
 aconteceu conforme o combinado
 adorei o sait
 adorei o site
@@ -24,6 +26,7 @@ agilidade na liberação
 agilidadi na entrega
 aguardo imediato
 aguardu imediatu
+alguns dias
 amassada
 ambiente físico
 arrogante
@@ -37,6 +40,7 @@ atendenti
 atenderam meu chamado
 atenderam minha reclamação
 atendida
+atendido
 atendidu
 atendimento
 atendimento por telefone
@@ -85,6 +89,8 @@ cansou de pedir
 cara de pau
 cara grosseiro
 cara grosso
+caro d+
+caro demais
 carteiro
 chegou antes
 chegou bem antes
@@ -138,6 +144,8 @@ despachou
 desrespeito
 devolução
 devolvam
+devolver
+devolvi
 dias depois
 diversidade de produtos
 domigo
@@ -199,6 +207,7 @@ enviado
 enviadu
 envio do produto
 enviou um código
+erro
 erro no pedido
 erro no produto
 esperar para receber
@@ -237,6 +246,8 @@ foi pontual
 foi pontuau
 foram respondidos
 forma de pagamento
+frete
+freti
 furtos
 ganhei um brinde
 grosseiru
@@ -250,11 +261,14 @@ klick e retire
 ligou várias vezes
 liguei várias vezes
 logística
+loja
 má fé
+mais barato
 mal atendido
 mal transportado
 mandá-lo de volta
 mas resolveram
+mas veio
 mau atendido
 mau transportado
 me deixou falando sozinho
@@ -262,6 +276,8 @@ mentiroso
 mimar o cliente
 muita demora
 muito bons descontos
+muito capricho
+muito caro
 muito sortida
 na internet
 não atendem
@@ -320,6 +336,9 @@ navegação fácil
 nenhuma atenção
 nota é para a empresa
 nota é para a loja
+nunca tive o menor dos problemas
+nunca tive problema
+nunca tive problemas
 opções de compra
 opções de pagamento
 ótimo atendimento
@@ -337,6 +356,7 @@ parcelamento
 parcelar
 paro de comprar
 passou a data
+pela internet
 pelo serviço
 péssima embalagem
 péssima entrega
@@ -344,15 +364,19 @@ péssima experiencia de compra
 pessoa grossa
 pessoa grosseira
 pontual
+porém veio
 pós venda
 pós-venda
 postagem
 pouco caso
+praticidade
 prazo de entrega
 prazo estipulado
+preço
 presente data
 prestativo
 prestativos
+primeira compra
 problema da empresa
 processo de compra
 produto demorou
@@ -419,6 +443,9 @@ solucionaram meu problema
 solucionaram o problema
 solucionou meu problema
 solucionou o problema
+sou cliente
+super confiável
+superconfiável
 tele-vendas
 telefonei várias vezes
 telefonou várias vezes
