@@ -1,13 +1,7 @@
-0800
-1a compra
-1a. compra
-2a compra
+800
 2a feira
-2a. compra
 2a. feira
-3a compra
 3a feira
-3a. compra
 3a. feira
 4a feira
 4a. feira
@@ -37,7 +31,6 @@ atendenti
 atenderam meu chamado
 atenderam minha reclamação
 atendida
-atendidu
 atendimento
 atendimento por telefone
 atendimentu
@@ -173,7 +166,9 @@ entrega mau feita
 entrega muito ágil
 entrega no prazo
 entrega péssima
+entrega pessima
 entrega rápida
+entrega rapida
 entrega rapidamente
 entrega ruim
 entrega ruinzinha
@@ -194,9 +189,6 @@ entregue para terceiros
 entregue pra terceiros
 entrei em contato
 entrou em contato
-enviada
-enviado
-enviadu
 envio do produto
 enviou um código
 erro no pedido
@@ -400,7 +392,6 @@ sait de fácil acesso
 sait de fácil entendimento
 sait muito bom
 sedex
-segunda compra
 segunda feira
 segunda-feira
 segurança na compra
@@ -426,7 +417,6 @@ televendas
 tempo hábil
 terça feira
 terça-feira
-terceira compra
 todo amassado
 todo o processo
 todo processo
@@ -442,3 +432,148 @@ vendedora
 visitei o sait
 visitei o site
 voltarei sempre
+com a entrega
+demorar pra entregar
+boa loja
+loja boa
+loja muito boa
+ótima loja
+loja ótima
+bem atendido
+compra fácil
+compra foi fácil
+compra bem fácil
+compra muito fácil
+compra foi muito fácil
+entregou antes
+entregou depois
+loja é boa
+loja é muito boa
+loja é otima
+loja é ruim
+loja é muito ruim
+loja é péssima
+loja é horrível
+loja é horrorosa
+ótimo serviço
+ótimo o serviço
+ainda não chegou
+meses de espera
+péssima logística
+nesse site
+site é difícil
+sait é difícil
+loja é muito confiável
+loja é confiável
+loja confiável
+loja não é muito confiável
+loja não é confiável
+na data certa
+site de confiança
+sait de confiança
+suporte ao cliente
+suporte ao consumidor
+entrega deveria ser
+entrega mais rápida
+compro nada
+compro mais nada
+entrega foi
+entrega deixou
+enrola o cliente
+enrola o consumidor
+enrola muito o cliente
+enrola muito o consumidor
+enrola demais o cliente
+enrola demais o consumidor
+rápida na entrega
+sem burocracias
+entrar em contato
+entregaram antes
+entregaram depois
+descaso
+melhor loja
+pior loja
+não me responderam
+sequer me responderam
+demorou mais de
+excelente loja
+bem atendido
+fornecer protocolo
+prazos de entrega
+descrição falha
+descrição foi falha
+descrição foi muito falha
+qualidade e rapidez
+rapidez e qualidade
+chegou conforme
+demora para entrega
+antes do prazo
+antes dos prazos
+site de compra
+site de compras
+consigo trocar
+loja é nota
+loja nota
+mandar amostras
+mandar mais amostras
+mandar algumas amostras
+loja passa
+problema com frete
+problema com freti
+problema com o frete
+problema com o freti
+ótima loja
+foi rápido
+foi muito rápido
+loja entrega
+nunca mais compro aqui
+nunca mais comprarei aqui
+nunca mais compro nessa
+nunca mais comprarei nessa
+compra pela internet
+compra na internet
+enrola fácil o consumidor
+entrar em contado
+emissão da nota fiscal
+sou cliente de muito tempo
+sou cliente há muito tempo
+entrega monitorada
+entrega toda monitorada
+entrega toda trackeada
+me entreguem o produto
+problema do frete
+compro aqui
+comprpo aqui
+entrega expressa
+Loja com otimos preços
+confuso para entregar
+para ser entregue
+entrega ok
+ok a entrega
+entrega excelente
+entrega exelente
+eficácia na entrega
+procedimento do ecommerce
+procedimento do e-commerce
+complicado para fazer a compra
+complicado para fazer compra
+complicado fazer compra
+complicado fazer a compra
+Nao faco mais pre venda
+Nao faço mais pre venda
+Nao faço mais pre-venda
+nao gostei da demora
+mesmo com o frete
+excedendo o prazo
+problemas na entrega
+loja não cumpre
+loja cumpre
+site descomplicado
+entregue com agilidade
+entregue sem surpresas
+ótima loja!
+chegou certinho
+entrega é rapida
+prazo dado
+chegou muito rápido
+chegou rápido
