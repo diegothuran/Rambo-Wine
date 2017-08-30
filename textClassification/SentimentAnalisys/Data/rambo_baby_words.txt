@@ -645,7 +645,6 @@ loja séria
 organização inflexível
 loja inflexível
 ecommerce inflexível
-no site
 desse site
 dessa loja
 me trataram super mal
@@ -668,3 +667,12 @@ não chegou quando
 não chegou na hora
 não recebi o produto
 não recebi o prodto
+para entregar
+pra entregar
+para fazer a entrega
+pra fazer a entrega
+demais na entrega
+muito na entrega
+bastante na entrega
+demorou na entrega
+demorado na entrega
