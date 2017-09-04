@@ -39,6 +39,11 @@ atrasadu
 atraso
 atrasou
 atrasu
+atrazo
+atrazou
+atrazu
+atrazado
+atrazadu
 avisa quando chega
 avisa quando chegar
 avisa quando chegou
@@ -645,3 +650,36 @@ loja séria
 organização inflexível
 loja inflexível
 ecommerce inflexível
+desse site
+dessa loja
+me trataram super mal
+me trataram mal
+me trataram muito mal
+me trataram super mau
+me trataram mau
+me trataram muito mau
+reclame aqui
+semanas esperando
+igual a loja
+comprar no
+comprar na
+compro no
+compro na
+muito eficientes
+comprometidos na entrega
+experiência de compra
+não chegou quando
+não chegou na hora
+não recebi o produto
+não recebi o prodto
+para entregar
+pra entregar
+para fazer a entrega
+pra fazer a entrega
+demais na entrega
+muito na entrega
+bastante na entrega
+demorou na entrega
+demorado na entrega
+não recebi
+nao recebi

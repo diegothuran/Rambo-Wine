@@ -28,9 +28,7 @@ class CommentSerializer(serializers.ModelSerializer):
         if cwf.finding_matchs(instance.comment, words=cwf.words):
             instance.is_product = False
             instance.is_store = True
-            instance.save()
 
-            return instance
         else:
             classification = ensemble.prediction(instance.comment)
 
@@ -42,9 +40,9 @@ class CommentSerializer(serializers.ModelSerializer):
                 instance.is_store = True
             else:
                 instance.is_store = False
-            instance.save()
+        instance.save()
 
-            return instance
+        return instance
 
 class WineSerializer(serializers.ModelSerializer):
     """
