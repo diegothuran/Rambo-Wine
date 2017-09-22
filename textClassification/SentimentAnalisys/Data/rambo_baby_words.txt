@@ -176,6 +176,8 @@ entrega rapida
 entrega rápida-
 entrega rapida-
 entrega rapidamente
+entrega bastante rapida
+entrega bastante rápida
 entrega ruim
 entrega ruinzinha
 entrega super rápida
@@ -694,5 +696,3 @@ tudo certo com a minha compra
 tudo certo com a compra
 Preços atraentes
 precos atraentes
-entrega bastante rapida
-entrega em apenas
