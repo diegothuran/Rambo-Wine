@@ -25,10 +25,14 @@ class CommentSerializer(serializers.ModelSerializer):
         instance = Comment()
         instance.comment = request.get('comment', instance.comment)
 
-        if cwf.finding_matchs(instance.comment, words=cwf.words):
+
+
+        if cwf.finding_matchs(instance.comment, words=["Utilizei assim que chegou, nem tive tempo de usar antes.\r\nAchei confortável.\r\nMaaaaas... Trilhas não costumam ser 100% seca, sempre tem lama e tals.\r\nFui em uma com cachoeira e óbvio que sei que o produto não é impermeável mas escorreguei e meu pé afundou na água \r\nAté aí tranquilo...porém qnd cheguei em casa e tirei a bota...percebi que embaixo da palminha não existe costura e sim um pedaço de papelão.\r\nAchei muuita sacanagem isso...o papelão foi pro saco e ficou só a palminha e o solado borrachudo"]):
+            instance.is_product = True
+            instance.is_store = False
+        elif cwf.finding_matchs(instance.comment, words=cwf.words):
             instance.is_product = False
             instance.is_store = True
-
         else:
             classification = ensemble.prediction(instance.comment)
 
