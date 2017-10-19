@@ -21,3 +21,5 @@ Observações
 - Decidimos ter apenas o ambiente de production para o Rambo para concentrar as
   informações (que são essenciais para a acurácia do algoritmo) na base de dados
   de produção
+
+eitaaa
