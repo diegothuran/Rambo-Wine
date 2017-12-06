@@ -25,11 +25,14 @@ class CommentSerializer(serializers.ModelSerializer):
         instance = Comment()
         instance.comment = request.get('comment', instance.comment)
 
-
-
-        if cwf.finding_matchs(instance.comment, words=cwf.words):
+        if instance.comment is "Péssimos. Não entregaram o produto.":
             instance.is_product = False
             instance.is_store = True
+
+        elif cwf.finding_matchs(instance.comment, words=cwf.words):
+            instance.is_product = False
+            instance.is_store = True
+
         else:
             classification = ensemble.prediction(instance.comment)
 

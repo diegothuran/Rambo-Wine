@@ -704,4 +704,4 @@ nao recebi o produto
 nao recebi a tempo
 entrega do produto
 entrega da
-Não entregaram o produto
+não entregaram o produto
