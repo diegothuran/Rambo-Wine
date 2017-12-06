@@ -19,6 +19,7 @@ class Check_Words_Filter():
         return lines
 
     def finding_matchs(self, sentence=str, words=[]):
+        sentence = sentence.lower()
         for word in words:
             return_value = self.searchWholeWord(word)(sentence)
             if return_value:
