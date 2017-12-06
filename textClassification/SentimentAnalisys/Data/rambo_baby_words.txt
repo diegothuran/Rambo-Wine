@@ -702,3 +702,5 @@ não recebi a tempo
 nao recebi o meu produto
 nao recebi o produto
 nao recebi a tempo
+entrega do produto
+entrega da
