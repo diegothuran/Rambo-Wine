@@ -25,7 +25,7 @@ class CommentSerializer(serializers.ModelSerializer):
         instance = Comment()
         instance.comment = request.get('comment', instance.comment)
 
-        if instance.comment is "Péssimos. Não entregaram o produto.":
+        if instance.comment == u"Péssimos. Não entregaram o produto.":
             instance.is_product = False
             instance.is_store = True
 
