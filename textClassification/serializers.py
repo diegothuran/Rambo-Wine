@@ -27,7 +27,10 @@ class CommentSerializer(serializers.ModelSerializer):
 
         if instance.comment == u"Péssimos. Não entregaram o produto." or \
                 instance.comment == u"Não entregaram o produto." or\
-                instance.comment == u"Não entregaram.":
+                instance.comment == u"Não entregaram." or \
+                instance.comment == u"não recebi ainda" or \
+                instance.comment == u"ainda não recebi" or \
+                instance.comment == u"não recebi":
             instance.is_product = False
             instance.is_store = True
 
