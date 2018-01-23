@@ -93,6 +93,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+    
 }
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -155,5 +156,4 @@ CORS_ORIGIN_WHITELIST = (
     '*.trustvox.com.br',
     'trustvox.github.io',
     'localhost:8000',
-    'trustvox.github.io/rambo/',
 )

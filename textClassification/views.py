@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from .models import Comment
 from .serializers import CommentSerializer, UpdateSerializer
 from textClassification.SentimentAnalisys import Ensemble
+from django.shortcuts import render
 
 
 class CommentListView(generics.ListCreateAPIView):
@@ -19,3 +20,6 @@ class CommentDetail(generics.RetrieveUpdateDestroyAPIView):
 class UpdateListView(generics.ListCreateAPIView):
     queryset = Comment.objects.all()
     serializer_class = UpdateSerializer
+
+def index(request):
+    return render(request, 'Rambo/index.html')

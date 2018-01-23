@@ -15,11 +15,15 @@ class Check_Words_Filter():
         return re.compile(r'\b({0})\b'.format(w), flags=re.IGNORECASE).search
 
     def read_words(self):
-        lines = [line.rstrip('\n') for line in open('textClassification/SentimentAnalisys/Data/rambo_baby_words.txt')]
+        lines = [line.rstrip('\n').decode('utf8') for line in open('textClassification/SentimentAnalisys/Data/rambo_baby_words.txt')]
         return lines
 
+    def findin_matches_lambda(self, sentence=str, words=[]):
+        retorno = filter(lambda x: sentence.count(x), words)
+        return retorno
+
     def finding_matchs(self, sentence=str, words=[]):
-        sentence = sentence.lower()
+        #sentence = u'' + sentence
         for word in words:
             return_value = self.searchWholeWord(word)(sentence)
             if return_value:

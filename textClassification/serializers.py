@@ -25,16 +25,8 @@ class CommentSerializer(serializers.ModelSerializer):
         instance = Comment()
         instance.comment = request.get('comment', instance.comment)
 
-        if instance.comment == u"Péssimos. Não entregaram o produto." or \
-                instance.comment == u"Não entregaram o produto." or\
-                instance.comment == u"Não entregaram." or \
-                instance.comment == u"não recebi ainda" or \
-                instance.comment == u"ainda não recebi" or \
-                instance.comment == u"não recebi":
-            instance.is_product = False
-            instance.is_store = True
-
-        elif cwf.finding_matchs(instance.comment, words=cwf.words):
+        comment = instance.comment.lower()
+        if len(cwf.findin_matches_lambda(comment, words=cwf.words)) != 0:
             instance.is_product = False
             instance.is_store = True
 
@@ -49,7 +41,7 @@ class CommentSerializer(serializers.ModelSerializer):
                 instance.is_store = True
             else:
                 instance.is_store = False
-        instance.save()
+        #instance.save()
 
         return instance
 

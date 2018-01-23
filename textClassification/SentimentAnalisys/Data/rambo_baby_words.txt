@@ -1,3 +1,17 @@
+não recebi o meu produto
+não recebi o produto
+não recebi a tempo
+nao recebi o meu produto
+nao recebi o produto
+nao recebi a tempo
+entrega do produto
+entrega da
+não entregaram o produto
+ainda não recebi
+não entregaram
+não chegou
+ainda não recebi
+não recebi
 800
 2a feira
 2a. feira
@@ -696,12 +710,9 @@ tudo certo com a compra
 Preços atraentes
 precos atraentes
 troca pelo site
-não recebi o meu produto
-não recebi o produto
-não recebi a tempo
-nao recebi o meu produto
-nao recebi o produto
-nao recebi a tempo
-entrega do produto
-entrega da
-não entregaram o produto
+não recebi
+não chegou
+não foi entregue
+entrega atrasou
+não recebi o produto ainda
+não gosto das entregas
