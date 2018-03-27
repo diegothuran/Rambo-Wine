@@ -72,7 +72,7 @@ class WineSerializer(serializers.ModelSerializer):
             instance.is_store = True
         else:
             instance.is_store = False
-        instance.save()
+        #instance.save()
 
         return instance
 class UpdateSerializer(serializers.ModelSerializer):
