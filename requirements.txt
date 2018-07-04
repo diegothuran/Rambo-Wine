@@ -1,5 +1,7 @@
 appdirs==1.4.3
+certifi==2018.4.16
 cycler==0.10.0
+dill==0.2.8.2
 dj-database-url==0.4.2
 Django==1.11.1
 django-cors-headers==2.0.2
@@ -11,9 +13,9 @@ gunicorn==19.7.1
 joblib==0.11
 Markdown==2.6.8
 matplotlib==2.0.2
+newrelic==2.90.0.75
 nltk==3.2.3
 numpy==1.12.1
-newrelic==2.90.0.75
 packaging==16.8
 psycopg2==2.7.1
 pyparsing==2.2.0

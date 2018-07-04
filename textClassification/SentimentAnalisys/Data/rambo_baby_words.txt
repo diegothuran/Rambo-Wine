@@ -406,7 +406,6 @@ resposta da loja
 retirada do produto
 retirei o produto
 sabado
-sac
 sait bom
 sait de fácil acesso
 sait de fácil entendimento
@@ -716,3 +715,10 @@ não foi entregue
 entrega atrasou
 não recebi o produto ainda
 não gosto das entregas
+chegou no prazo
+chega no prazo
+entregaram antes do prazo
+entrega antes do prazo.
+antes do prazo.
+antes do praso.
+antes do praso

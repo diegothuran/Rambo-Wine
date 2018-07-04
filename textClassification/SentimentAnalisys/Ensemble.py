@@ -7,6 +7,7 @@ from textClassification.models import Comment
 
 from Util import *
 from django.core.cache import cache
+import dill
 
 
 def update_classifiers(patter_to_add, label=[]):
@@ -46,14 +47,14 @@ class Ensemble():
                 self.vectorizer = cache.get('vectorizer')
 
     def load_vectorizer(self):
-        vectorizer = joblib.load("textClassification/SentimentAnalisys/Data/vectorizer.pkl")
-
+        #vectorizer = joblib.load("textClassification/SentimentAnalisys/Data/vectorizer.pkl")
+        vectorizer = build_model('textClassification/SentimentAnalisys/Data/vectorizer.pk')
         return vectorizer
 
     def load_classifiers(self):
 
         svm_product = None
-        svm_store = joblib.load('textClassification/SentimentAnalisys/ClassifierWeigths/svm2-02.pkl')
+        svm_store = build_model('textClassification/SentimentAnalisys/ClassifierWeigths/svm2-02.pk')
 
         return svm_product, svm_store
 

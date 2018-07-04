@@ -12,6 +12,7 @@ from sklearn.feature_extraction.text import HashingVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
 import numpy as np
+import dill
 
 """
     Classe de métodos úteis para o processamento de texto.
@@ -245,6 +246,7 @@ def tokenize(text):
     stems = join_strings(stems)
     return stems
 
+
 def join_strings(list_of_strings):
     """
         Método para transformar tokens em uma única sentença
@@ -252,3 +254,29 @@ def join_strings(list_of_strings):
     :return: sentença formada pela união dos tokens
     """
     return " ".join(list_of_strings)
+
+def remove_punctuation(input_text):
+    """
+    Removes the punctuation from the input_text string
+    python 2 (string.maketrans) is different from python 3 (str.maketrans)
+
+    Parameters
+    ----------
+    input_text: string in which the punctuation will be removed
+
+    Return
+    ------
+        input_text without the puncutation
+    """
+    # Make translation table
+    punct = string.punctuation
+    # if python 2
+    trantab = string.maketrans(punct, len(punct) * ' ')  # Every punctuation symbol will be replaced by a space
+    #     # if python 3
+    #     trantab = str.maketrans(punct, len(punct)*' ')  # Every punctuation symbol will be replaced by a space
+    return input_text.translate(trantab)
+
+def build_model(model_path):
+    with open(model_path, "rb") as f:
+        model = dill.load(f)
+    return model
